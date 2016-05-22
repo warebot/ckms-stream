@@ -2,7 +2,7 @@ package com.warebot.ckms.stream;
 
 /**
  * <p>
- * Quantile is an invariant for estimation with {@link Stream}.
+ * Quantile is an invariant for estimation with {@link CKMSStream}.
  * </p>
  */
 

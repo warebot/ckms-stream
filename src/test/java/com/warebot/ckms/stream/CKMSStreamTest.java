@@ -17,7 +17,7 @@ public class CKMSStreamTest {
         final Quantile[] q = new Quantile[]{new Quantile(0.2, 0.05), new Quantile(0.5, 0.1), new Quantile(0.9, 0.01),
                 new Quantile(0.99, 0.001)};
 
-        Stream<Double> stream = new Stream<Double>(500, q);
+        Stream<Double> stream = new CKMSStream<Double>(500, q);
         ArrayList<Double> dataPoints = new ArrayList<Double>(maxSize);
 
         Random random = new Random();
