@@ -1,4 +1,6 @@
 # ckms-stream
+[![CircleCI](https://circleci.com/gh/warebot/ckms-stream.svg?style=shield)](https://circleci.com/gh/warebot/ckms-stream)
+
 
 Implementation of the CKMS algorithm based on [Effective Computation of Biased Quantiles over Data Streams](http://www.cs.rutgers.edu/~muthu/bquant.pdf).
 
